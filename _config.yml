@@ -110,7 +110,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "mailto:picbel.gon@gmail.com"
+      url: "mailto:picbel.gon@gmail.com"
    - label: "Website"
      icon: "fas fa-fw fa-link"
      # url: "https://your-website.com"
@@ -120,13 +120,13 @@ author:
    - label: "Facebook"
      icon: "fab fa-fw fa-facebook-square"
      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Picbel"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-       url: "https://www.instagram.com/picbel.trip/"
-
+   - label: "GitHub"
+     icon: "fab fa-fw fa-github"
+     url: "https://github.com/Picbel"
+   - label: "Instagram"
+     icon: "fab fa-fw fa-instagram"
+     url: "https://www.instagram.com/picbel.trip/"
+     
 # Site Footer
 footer:
   links:
