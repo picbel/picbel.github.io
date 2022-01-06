@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "첫번째 포스팅입니다."
 ---
 
