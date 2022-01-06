@@ -2,7 +2,7 @@
 layout: single
 title:  "첫번째 포스팅입니다."
 category: test
-tag: [1,2]
+tag: [a,b]
 ---
 
 # Welcome
