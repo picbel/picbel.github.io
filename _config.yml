@@ -23,7 +23,7 @@ name                     : # "Your Name"
 description              : "공부한 내용, 개발하면서 생각하는 내용을 적는 블로그입니다."
 url                      : "https://picbel.github.io"
 #baseurl                  : "/blog"
-repository               : "Picbel/Picbel.github.io"
+repository               : # "Picbel/Picbel.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
