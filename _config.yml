@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Picbel"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Developer, Photographer, Traveler In Picbel"
+  bio              : "Developer, photographer, traveler in Picbel"
   location         : "Seoul"
   email            : # "picbel.gon@gmail.com"
   links:
