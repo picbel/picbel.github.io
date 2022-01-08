@@ -28,3 +28,5 @@
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
 </div>
+{% assign posts = site.categories.Cpp %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
