@@ -12,3 +12,11 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+
+main-sidebar:
+  - title: "coding"
+    url: "/coding/"
+    children:
+      - title: "coding"
+        url: "/coding/coding2/"
