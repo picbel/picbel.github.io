@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "첫번째 포스팅입니다1 ."
-categories: - coding
+categories: coding
 tags: [a,b]
 ---
 
