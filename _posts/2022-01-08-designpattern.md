@@ -8,7 +8,7 @@ tags: [Programming,design pattern,GOF]
 teaser: /assets/images/teaser/designpattern.png
 ---
 
-<p align="center"><img src="/assets/images/teaser/designpattern.png" width="50%" height="auto"></p>
+<p align="center"><img src="/assets/images/teaser/designpattern.png" width="70%" height="auto"></p>
 
 head first design patterns에서 소개된 디자인패턴을 압축 요약 정리하는 포스트입니다.
 
