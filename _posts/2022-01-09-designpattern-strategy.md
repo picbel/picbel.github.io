@@ -17,7 +17,7 @@ teaser: /assets/images/teaser/designpattern.png
 
 
 예시(해당 예시는 헤드퍼스트 디자인 패턴 책에 나온 예시이다)
-<p align="center"><img src="/assets/images/posts/strategy.jpeg" width="70%" height="auto"></p>
+<p align="center"><img src="/assets/images/posts/strategy.jpeg" width="100%" height="auto"></p>
 
 해당 예시를 보면 여러 캐릭터들이 있고 또 여러 무기가 있습니다.\
 요구사항) 기사는 검을 주로 쓰지만 활도 쏠수 있으며 궁수또한 활이 주력이지만 나이프를 사용할수있습니다.
