@@ -96,4 +96,4 @@ public class Main {
 이처럼 변화가 되는 것을 인터페이스로 선언 후 구현 클래스를 작성합니다.\
 메인클래스나 실행클래스에서는 인터페이스 선언 후 구현 클래스를 교체하여 사용하는 것이 핵심입니다.
 
-
+예제 코드는 <https://github.com/Picbel/TIL.designPattern> 참고부탁드립니다.
