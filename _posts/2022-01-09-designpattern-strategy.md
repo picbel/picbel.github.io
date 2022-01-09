@@ -2,7 +2,7 @@
 sidebar:
 nav: "main"
 layout: single
-title:  "GOF 디자인 패턴 요약 정리"
+title:  "Design-pattern Strategy 패턴"
 categories: [Programming,design pattern]
 tags: [Programming,design pattern,GOF,Strategy]
 teaser: /assets/images/teaser/designpattern.png
@@ -12,7 +12,7 @@ teaser: /assets/images/teaser/designpattern.png
 
 실무에서 상당히 자주 쓰이는 유용한 strategy패턴에 대한 포스팅입니다.
 
-####정의
+#### 정의
 >알고리즘(이하 로직)을 정의하고 각각을 캡슐화하여 교환해서 사용할 수 있도록 만든다. 스트래티지 패턴을 활용하면 로직을 사용하는 클라이언트와는 독립적으로 로직을 변경할 수 있다.
 
 
@@ -23,7 +23,7 @@ teaser: /assets/images/teaser/designpattern.png
 요구사항) 기사는 검을 주로 쓰지만 활도 쏠수 있으며 궁수또한 활이 주력이지만 나이프를 사용할수있습니다.
 
 무기의 교체가 가능하기때문에 직업별로 무기사용법을 구현하는것은 비효율 적입니다.\
-이렇게 특정하게 변경을 해야 할 경우 단지 인터페이스의 구현 클래스를 새로 끼우는 방식으로 수정이 가능한 것이 이 패턴의 큰 장점입니다.\
+이렇게 특정하게 변경을 해야 할 경우 단지 인터페이스의 구현 클래스를 새로 끼우는 방식으로 수정이 가능한 것이 이 패턴의 큰 장점입니다.
 
 ```
 //먼저 캐릭터 추상클래스를 만듭니다
