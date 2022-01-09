@@ -4,7 +4,7 @@ nav: "main"
 layout: single
 title:  "Spring Triangle"
 categories: [Spring]
-tags: [Spring,IOC,AOP,PSA]
+tags: [Spring,IOC,AOP,PSA,Java]
 teaser: /assets/images/teaser/spring.png
 ---
 
