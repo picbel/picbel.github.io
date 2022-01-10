@@ -2,7 +2,7 @@
 sidebar:
 nav: "main"
 layout: single
-title:  "Design-pattern 팩토리 패턴"
+title:  "Design-pattern Factory 패턴"
 categories: [Programming,design pattern]
 tags: [Programming,design pattern,GOF,Factory Method,Abstract Factory]
 teaser: /assets/images/teaser/designpattern.png
