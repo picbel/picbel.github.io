@@ -68,7 +68,7 @@ JVM에서 유일한 인스턴스를 생성하기 전에는 그 어떤 스레드�
 추가로\
 __Voliate__
 멀티 쓰레딩 환경에서 동기화를 해주는 키워드입니다.\
-<u>java 변수를 메인 메모리에 저장하겠다</u>를 명시하는 키워드 입니다.\
+<u>java 변수를 메인 메모리에 저장하겠다</u>를 명시합니다.\
 Multi Thread 환경에서 하나의 Thread만 read & write 하고 나머지 Thread가 read 하는 상황에서 가장 최신의 값을 보장합니다.
 
 예제 코드는 <https://github.com/Picbel/TIL.designPattern> 참고부탁드립니다.
