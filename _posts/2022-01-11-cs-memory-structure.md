@@ -18,10 +18,10 @@ tags: [Programming,CS,Memory Structure]
 
 운영체제로부터 할당받는 대표적인 메모리 공간은
 
-1. 코드(code)
-2. 데이터(data)
-3. 스택(stack)
-4. 힙(heap)
+- 코드(code)
+- 데이터(data)
+- 스택(stack)
+- 힙(heap)
 
 입니다.
 
