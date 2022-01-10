@@ -20,17 +20,17 @@ teaser: /assets/images/teaser/designpattern.png
 인스턴스를 미리 만들지 않고 필요할 때 생성하는 코드.
 ---
 ```java
-public class Singleton {
+public class SingletonStatic {
 
-  private volatile static Singleton uniqueInstance;
+  private volatile static SingletonStatic uniqueInstance;
 
-  private Singleton() {}
+  private SingletonStatic() {}
 
-  public static Singleton getInstance() {
+  public static SingletonStatic getInstance() {
     if (uniqueInstance == null) {
-      synchronized (Singleton.class){
+      synchronized (SingletonStatic.class){
         if (uniqueInstance == null) {
-          uniqueInstance = new Singleton();
+          uniqueInstance = new SingletonStatic();
         }
       }
     }
