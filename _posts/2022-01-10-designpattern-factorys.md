@@ -20,7 +20,7 @@ teaser: /assets/images/teaser/designpattern.png
 #### 정의
 객체를 생성하기 위한 인터페이스를 정의합니다. 어떤 클래스의 인스턴스를 만들지는 서브클래스에서 결정합니다.
 
-<p align="center"><img src="/assets/images/teaser/designpattern.png" width="70%" height="auto"></p>
+<p align="center"><img src="/assets/images/posts/20220111/factory_method.png" width="70%" height="auto"></p>
 
 객체 생성을 담당하는 부분은 factoryMethod이 부분입니다.\
 서브클래스에서 팩토리 메서드를 정의하여 팩토리 메서드 호출로 객체를 반환합니다.
