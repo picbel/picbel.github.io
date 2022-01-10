@@ -48,15 +48,14 @@ public class Singleton {
 제가 애용하는 방식입니다.
 ```java
 public class Singleton {
-
 	private static Singleton uniqueInstance = new Singleton();
     
     private Singleton() {}
     
-	pubilc static Singleton getInstance() {
+	  public static Singleton getInstance() {
     
-    	return uniqueInstance;
-    }
+    	  return uniqueInstance; 
+    };
 }
 ```
 애플리케이션에서 반드시 Singleton의 인스턴스를 생성해야 하고 그 인스턴스를 항상 사용한다면 또는 인스턴스를 실행 중에 수시로 만들고 관리하기가 어렵다면 처음부터 Singleton인스턴스를 생성하는 것도 좋은 방법입니다.\
