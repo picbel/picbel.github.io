@@ -24,7 +24,7 @@ teaser: /assets/images/teaser/programming.jpeg
 
 입니다.
 
-<p align="center"><img src="/assets/images/posts/20220111/memory_structure.png" width="70%" height="auto"></p>
+<p align="center"><img src="/assets/images/posts/20220111/memory-structure.png" width="70%" height="auto"></p>
 
 코드(code) 영역
 ---
