@@ -24,7 +24,7 @@ Spring Triangle - 스프링의 핵심 3대 요소
 스프링의 가장 기본이 되는 기술이자 스프링의 핵심 개발원칙\
 유연한 확장이 가능하게 하기 위해 쓰이는 기술이다.\
 기존 자바에서 의존성을 자기 자신이 생성하여 맺는다.
-```
+```java
  class Member {
  //main
 
@@ -32,7 +32,7 @@ Spring Triangle - 스프링의 핵심 3대 요소
  }
 ```
 하지만 스프링에서는 의존성을 아래와 같이 주입한다.
-```
+```java
 @Service
 public class Member {
 
@@ -40,7 +40,8 @@ public class Member {
 
    // 스프링 4.3이상 부터는 생성자방식의 인젝션의 경우 @Autowired 생략 가능하다
   public Member(Team team) {
-  this.team = team;
+    this.team = team;
+  }
  }
 ```
 즉 의존성을 직접 만드는 게 아닌 제3의 외부로부터 의존성을 주입받는다.\

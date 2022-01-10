@@ -25,7 +25,7 @@ teaser: /assets/images/teaser/designpattern.png
 무기의 교체가 가능하기때문에 직업별로 무기사용법을 구현하는것은 비효율적 입니다.\
 이렇게 특정하게 변경을 해야 할 경우 단지 인터페이스의 구현 클래스를 새로 끼우는 방식으로 수정이 가능한 것이 이 패턴의 큰 장점입니다.
 
-```
+```java
 //먼저 캐릭터 추상클래스를 만듭니다
 public abstract class Character {
 
@@ -37,8 +37,8 @@ public abstract class Character {
 
     //무기의 인터페이스구현클래스를 동적으로 교체하기위해 작성합니다
     public void setWeapon(WeaponBehavior w){
-        this.weapon = w;
-        };
+          this.weapon = w;
+    };
 }
 
 public class Knight extends Character{
@@ -70,7 +70,7 @@ public class bowBehavior implements WeaponBehavior {
 }
 ```
 이제 기사가 검을 쓰다 활로 무기를 변경하는 상황을 가정해보겠습니다.
-```
+```java
 public class Main {
     public static void main(String[] args) {
     
