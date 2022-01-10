@@ -5,6 +5,7 @@ layout: single
 title:  "Memory Structure (메모리 구조) 요약"
 categories: [Programming,CS]
 tags: [Programming,CS,Memory Structure]
+teaser: /assets/images/teaser/programming.jpeg
 ---
 
 <p align="center"><img src="/assets/images/teaser/programming.jpeg" width="70%" height="auto"></p>
