@@ -5,12 +5,12 @@ layout: single
 title:  "Memory Structure (메모리 구조) 요약"
 categories: [Programming,CS]
 tags: [Programming,CS,Memory Structure]
-teaser: /assets/images/teaser/programming.jpeg
 ---
 
 <p align="center"><img src="/assets/images/teaser/programming.jpeg" width="70%" height="auto"></p>
 
 프로그래밍의 가장 기초가 되는 메모리 구조에 대한 요약 포스팅입니다.
+
 
 프로그램이 실행되기 위해서는 메모리에 로드(load)되어야 합니다.\
 또한 사용하는 변수들을 저장할 메모리도 필요합니다.\
