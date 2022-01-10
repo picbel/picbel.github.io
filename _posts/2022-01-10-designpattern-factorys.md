@@ -40,6 +40,8 @@ teaser: /assets/images/teaser/designpattern.png
 인터페이스를 이용하여 서로 연관, 의존 객체를 구현 클래스로 지정하지 않고 생성할 수 있습니다.\
 객체가 생성되거나 구성, 표현되는 방식과 무관하게 시스템을 독립적으로 만들때 사용됩니다.
 
+간단하게 예제코드로 직접 보겠습니다.
+
 ```java
 
 public abstract class Computer {
