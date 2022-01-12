@@ -27,7 +27,6 @@ Spring Triangle - 스프링의 핵심 3대 요소
 ```java
  class Member {
  //main
-
     Team team = new Team();
  }
 ```
