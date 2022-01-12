@@ -61,7 +61,7 @@ public class Member {
 
 하지만 한계점이 없는 것이 아니다.\
 프록시방식의 AOP의 경우 프록시의 한계점을 그대로 가지고 있다.\
-(자가 호출 불가, 접근제한자가 public)
+(자가 호출 불가, 접근제한자가 public) 
 
 
 서비스 추상화(PSA, Portable Service Abstraction)
