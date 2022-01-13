@@ -2,7 +2,7 @@
 sidebar:
 nav: "main"
 layout: single
-title:  "REST API"
+title:  "Process & Thread"
 categories: [Programming]
 tags: [Programming]
 teaser: /assets/images/teaser/programming.jpeg
@@ -10,3 +10,39 @@ teaser: /assets/images/teaser/programming.jpeg
 
 <p align="center"><img src="/assets/images/teaser/programming.jpeg" width="70%" height="auto"></p>
 
+cs를 공부하다보면 자주 듣게 될 프로세스와 쓰레드에 대한 포스트입니다.
+
+
+프로세스
+---
+*__사전적 의미__*
+1. 컴퓨터에서 연속적으로 실행되고 있는 컴퓨터 프로그램
+2. 메모리에서 실행되고 있는 프로그램의 인스턴스(독립적인 객체)
+3. 운영체제로부터 시스템 자원을 할당받는 작업의 단위\
+   동적인 개념으로는 실행된 프로그램을 의미하기도 한다
+
+> 시스템 자원 이란?
+> 1. CPU 시간
+> 2. 운영되기 위해 필요한 주소 공간
+> 3. Code, Data, Stack, Heap의 구조인 독립된 메모리 영역
+
+*__특징__*
+1. 프로세스는 각각 독립된 메모리 영역을 할당받는다
+2. 기본적으로 프로세스당 최소 한 개의 쓰레드를 보유한다
+3. 각 프로세스는 별도의 주소 공간에서 실행된다
+4. 한 프로세스는 다른 프로세스의 변수나 자료구조에 접근할 수 없다
+5. 프로세스가 다른 프로세스의 자원에 접근하려면 프로세스 간의 통신(IPC, inter-process communication)을 사용해야 한다.\
+   EX) 파이프, 파일, 소켓 등을 이용한 통신 방법
+
+
+쓰레드
+---
+*__사전적 의미__*
+
+
+
+*__특징__*
+
+
+
+https://tespad.tistory.com/27
