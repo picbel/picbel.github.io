@@ -8,7 +8,7 @@ tags: [Java,String,StringBuffer,StringBuilder]
 teaser: /assets/images/teaser/java.jpeg
 ---
 
-<p align="center"><img src="/assets/images/teaser/java.png" width="100%" height="auto"></p>
+<p align="center"><img src="/assets/images/teaser/java_coffee.png" width="100%" height="auto"></p>
 
 자바에서 문자열을 다루는 클래스로 크게 3가지가 있습니다.\
 각각의 차이점과 장단점에 대한 포스팅입니다.
