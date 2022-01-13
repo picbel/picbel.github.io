@@ -15,14 +15,14 @@ teaser: /assets/images/teaser/java.jpeg
 
 String
 ---
-String의 가장 큰 특징은 불변(immutable)하다 는 것입니다.
+String의 가장 큰 특징은 불변(immutable)하다 는 것입니다.\
 불변의 속성을 가지고 있기 때문에 값을 바꿀 수 없습니다.
 > 처음 접할 때 하는 String에 대한 오해\
 > String str = "A"\
 > str = "B"\
 > 다음과 같은 코드는 변수 str에 A의 값을 수정하는 게 아닌 "B"라는 값을 가진 새로운 String인스턴스를 생성하여 메모리 영역을 교체하는 것입니다.
 
-문자열의 수정, 삭제 등 값을 변형해야 하는 경우가 잦은 경우에는 매번 새로운 인스턴스를 생성하고 교체하는 것이기 때문에 비효율적입니다.
+문자열의 수정, 삭제 등 값을 변형해야 하는 경우가 잦은 경우에는 매번 새로운 인스턴스를 생성하고 교체하는 것이기 때문에 비효율적입니다.\
 이러한 한계 때문에 java에서는 StringBuffer와 StringBuilder를 도입합니다.
 
 StringBuffer
