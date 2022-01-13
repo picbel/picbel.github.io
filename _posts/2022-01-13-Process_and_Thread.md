@@ -8,7 +8,7 @@ tags: [Programming]
 teaser: /assets/images/teaser/programming.jpeg
 ---
 
-<p align="center"><img src="/assets/images/teaser/programming.jpeg" width="70%" height="auto"></p>
+<p align="center"><img src="/assets/images/teaser/programming.jpeg" width="100%" height="auto"></p>
 
 cs를 공부하다보면 자주 듣게 될 프로세스와 쓰레드에 대한 포스트입니다.
 

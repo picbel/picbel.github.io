@@ -9,7 +9,7 @@ teaser: /assets/images/teaser/programming.jpeg
 ---
 
 
-<p align="center"><img src="/assets/images/teaser/programming.jpeg" width="70%" height="auto"></p>
+<p align="center"><img src="/assets/images/teaser/programming.jpeg" width="100%" height="auto"></p>
 
 프로그래밍의 가장 기초가 되는 메모리 구조에 대한 요약 포스팅입니다.
 

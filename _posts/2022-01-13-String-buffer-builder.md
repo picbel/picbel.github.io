@@ -8,7 +8,7 @@ tags: [Java,String,StringBuffer,StringBuilder]
 teaser: /assets/images/teaser/java.jpeg
 ---
 
-<p align="center"><img src="/assets/images/teaser/java.jpeg" width="70%" height="auto"></p>
+<p align="center"><img src="/assets/images/teaser/java.png" width="100%" height="auto"></p>
 
 자바에서 문자열을 다루는 클래스로 크게 3가지가 있습니다.\
 각각의 차이점과 장단점에 대한 포스팅입니다.
@@ -34,7 +34,7 @@ StringBuilder
 StringBuilder는 가변성도 가지지만 멀티쓰레드 환경에서 안정성을 보장하지 않습니다. 다만 덕분에 위 두 개의 클래스보다 성능 면에서 우월합니다.
 
 
-##한 줄 요약정리
+## 한 줄 요약정리
 - String : 문자열 수정이 필요 없을 때
 - StringBuffer : 문자열 연산이 많지만 멀티쓰레드 환경에서 사용해야 할 때
 - StringBuilder : 문자열 연산이 많고 멀티쓰레드 환경이 아닐 때, 동시성문제를 고려하지 않아도 될 때

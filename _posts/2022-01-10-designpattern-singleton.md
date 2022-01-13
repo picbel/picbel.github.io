@@ -8,7 +8,7 @@ tags: [Programming,design pattern,GOF,Singleton]
 teaser: /assets/images/teaser/designpattern.png
 ---
 
-<p align="center"><img src="/assets/images/teaser/designpattern.png" width="70%" height="auto"></p>
+<p align="center"><img src="/assets/images/teaser/designpattern.png" width="100%" height="auto"></p>
 
 프레임워크나 라이브러리를 공부 하실때 자주 만나는 패턴인 싱글톤 패턴에 대한 포스팅입니다.
 

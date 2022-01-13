@@ -8,7 +8,7 @@ tags: [Programming,design pattern,GOF,Command]
 teaser: /assets/images/teaser/designpattern.png
 ---
 
-<p align="center"><img src="/assets/images/teaser/designpattern.png" width="70%" height="auto"></p>
+<p align="center"><img src="/assets/images/teaser/designpattern.png" width="100%" height="auto"></p>
 
 
 #### 정의

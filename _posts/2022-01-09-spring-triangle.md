@@ -8,7 +8,7 @@ tags: [Spring,IOC,AOP,PSA,Java]
 teaser: /assets/images/teaser/spring.png
 ---
 
-<p align="center"><img src="/assets/images/teaser/spring.png" width="70%" height="auto"></p>
+<p align="center"><img src="/assets/images/teaser/spring.png" width="100%" height="auto"></p>
 
 스프링의 핵심 3대 요소인 Spring Triangle의 포스트이다.
 
@@ -52,7 +52,7 @@ public class Member {
 
 관점 지향 프로그래밍(AOP, Aspect Oriented Programming)
 ---
-<p align="center"><img src="/assets/images/posts/aop.png" width="60%" height="auto"></p>
+<p align="center"><img src="/assets/images/posts/aop.png" width="100%" height="auto"></p>
 
 어떤 로직을 기준으로 핵심적인 관점, 부가적인 관점으로 나누어서 보고 그 관점을 기준으로 각각 모듈화한다.\
 (여기서 모듈화란 어떤 공통된 로직이나 기능을 하나의 단위로 묶는 것을 말한다)\

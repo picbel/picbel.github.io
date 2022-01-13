@@ -8,7 +8,7 @@ tags: [Programming,design pattern,GOF,Strategy]
 teaser: /assets/images/teaser/designpattern.png
 ---
 
-<p align="center"><img src="/assets/images/teaser/designpattern.png" width="70%" height="auto"></p>
+<p align="center"><img src="/assets/images/teaser/designpattern.png" width="100%" height="auto"></p>
 
 실무에서 상당히 자주 쓰이는 유용한 strategy패턴에 대한 포스팅입니다.
 
@@ -91,7 +91,7 @@ public class Main {
 }
 ```
 실행 결과입니다.
-<p align="center"><img src="/assets/images/posts/20220109/strategyLog.png" width="70%" height="auto"></p>
+<p align="center"><img src="/assets/images/posts/20220109/strategyLog.png" width="100%" height="auto"></p>
 
 이제 어떤 캐릭터든 무기를 교체만 한다면 각 무기를 사용 할 수 있습니다.\
 이처럼 변화가 되는 것을 인터페이스로 선언 후 구현 클래스를 작성합니다.\
