@@ -2,7 +2,7 @@
 sidebar:
 nav: "main"
 layout: single
-title:  "JPA | 영속성 컨텍스트"
+title:  "JPA - 영속성 컨텍스트"
 categories: [Java,Spring Data Jpa,JPA]
 tags: [Java,Spring Data,Spring Data Jpa,JPA]
 teaser: /assets/images/teaser/jpa.png
@@ -48,15 +48,15 @@ __앤티티 매니저 생성하는 방법__
 - ## 영속 (managed)
   - 영속성 컨텍스트에 관리되어 있는 상태
   ```java
-  Member member = new Member();
-  member.setId("member1")
-  member.setUsernmae("새로운 회원");
+   Member member = new Member();
+   member.setId("member1")
+   member.setUsernmae("새로운 회원");
   
-  EntityManager em = emf.createEntityManager();
-  em.getTransaction().begin();
+   EntityManager em = emf.createEntityManager();
+   em.getTransaction().begin();
 
-  // 객체를 영속화
-  em.persist(member);
+   //객체를 영속화
+   em.persist(member);
   ```
 
 - ## 준영속 (detached)
