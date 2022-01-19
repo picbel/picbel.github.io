@@ -39,37 +39,37 @@ __앤티티 매니저 생성하는 방법__
 
 - ## 비영속 (new/transient)
   - 영속성 컨텍스트와 관계가 없는 상태
-  ```java
-  Member member = new Member();
-  member.setId("member1")
-  member.setUsernmae("새로운 회원");
-  ```
+    ```java
+    Member member = new Member();
+    member.setId("member1")
+    member.setUsernmae("새로운 회원");
+    ```
 
 - ## 영속 (managed)
   - 영속성 컨텍스트에 관리되어 있는 상태
-  ```java
-   Member member = new Member();
-   member.setId("member1")
-   member.setUsernmae("새로운 회원");
+    ```java
+     Member member = new Member();
+     member.setId("member1")
+     member.setUsernmae("새로운 회원");
+    
+     EntityManager em = emf.createEntityManager();
+     em.getTransaction().begin();
   
-   EntityManager em = emf.createEntityManager();
-   em.getTransaction().begin();
-
-   //객체를 영속화
-   em.persist(member);
-  ```
+     //객체를 영속화
+     em.persist(member);
+    ```
 
 - ## 준영속 (detached)
   - 영속성 컨텍스트에 저장되었다가 *분리*된 상태
-  ```java
-  em.detach(member);
-  ``` 
+    ```java
+    em.detach(member);
+    ``` 
 
 - ## 삭제 (removed)
   - 영속성 컨텍스트에서 삭제된 상태
-  ```java
-  em.remove(member);
-  ``` 
+    ```java
+    em.remove(member);
+    ``` 
 
 영속성 컨텍스트의 장점 및 기능
 ---
