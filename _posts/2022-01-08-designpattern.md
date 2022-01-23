@@ -3,7 +3,7 @@ sidebar:
 nav: "main"
 layout: single
 title:  "GOF 디자인 패턴 요약 정리"
-categories: [디자인패턴]
+categories: [Design pattern]
 tags: [Programming,design pattern,GOF]
 teaser: /assets/images/teaser/designpattern.png
 ---
