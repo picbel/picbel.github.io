@@ -3,7 +3,7 @@ sidebar:
 nav: "main"
 layout: single
 title:  "Design-pattern Command 패턴"
-categories: [Design pattern]
+categories: [디자인패턴]
 tags: [Programming,design pattern,GOF,Command]
 teaser: /assets/images/teaser/designpattern.png
 ---
