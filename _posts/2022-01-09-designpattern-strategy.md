@@ -3,7 +3,7 @@ sidebar:
 nav: "main"
 layout: single
 title:  "Design-pattern Strategy 패턴"
-categories: [Programming,design pattern]
+categories: [Design pattern]
 tags: [Programming,design pattern,GOF,Strategy]
 teaser: /assets/images/teaser/designpattern.png
 ---

@@ -3,7 +3,7 @@ sidebar:
 nav: "main"
 layout: single
 title:  "Design-pattern Observer 패턴"
-categories: [Programming,design pattern]
+categories: [Design pattern]
 tags: [Programming,design pattern,GOF,Decorator]
 teaser: /assets/images/teaser/designpattern.png
 ---
