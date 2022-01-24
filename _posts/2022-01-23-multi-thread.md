@@ -75,14 +75,14 @@ public class AsyncThreadConfiguration {
   }
 }
 ```
-위에서 사용한 방법은 메서드레벨에서 정의하였다. AsyncConfigurer 상속하여 애플리케이션레벨에서 정의하는 방법도있는데 해당 <https://www.baeldung.com/spring-async>를 참고하자.\
-애플리케이션레벨이 아닌 메서드레벨을 이용한 이유는 다음과 같다.
-> 추후 ThreadNamePrefix이나 코어갯수 종료 시간 등 상세 설정을 바꿔야 하는 변경 사항이 있을 때 Bean을 등록하는 메서드레벨의 경우 Bean 하나만 더 등록하는 방법으로 상세한 설정이 자유로워진다.
+위에서 사용한 방법은 메서드레벨에서 정의하였습니다. AsyncConfigurer 상속하여 애플리케이션레벨에서 정의하는 방법도있는데 해당 링크 <https://www.baeldung.com/spring-async>를 참고하여주세요.\
+애플리케이션레벨이 아닌 메서드레벨을 이용한 이유는 다음과 같습니다.
+> 추후 ThreadNamePrefix이나 코어갯수 종료 시간 등 상세 설정을 바꿔야 하는 변경 사항이 있을 때 Bean을 등록하는 메서드레벨의 경우 Bean 하나만 더 등록하는 방법으로 상세한 설정이 자유로워집니다.
 
 자가 호출 문제
 ---
-하지만 @Async에도 문제가 있다. AOP를 사용하는 것이게 자가 호출이 불가능하단 한계가 있다.
-그래서 자가 호출 문제를 회피하는 방법을 하나 소개한다.
+하지만 @Async에도 문제가 있습니다. AOP를 사용하는 기술이기 때문에 자가 호출이 불가능하단 한계가 있습니다.
+그래서 자가 호출 문제를 회피하는 방법을 하나 소개합니다.
 ```java
 @Service
 public class AsyncService {
