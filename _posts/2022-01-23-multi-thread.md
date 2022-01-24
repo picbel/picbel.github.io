@@ -97,17 +97,17 @@ public class AsyncService {
 @Service
 @RequiredArgsConstructor
 public class videoService {
-		private final AsyncService asyncService;
+  private final AsyncService asyncService;
 
-		// asyncService를 이용하여 메서드에 비동기처리를 합니다.
-		public void runVideoConvert(Video video){
-				asyncService.vimeoAsyncRun(() -> this.videoConvert(video));
-		}
-		
-		// 비동기 적용 메서드
-		public void videoConvert(Video video){
-			// 비디오 변환로직 및 API 호출로직
-		}
+  // asyncService를 이용하여 메서드에 비동기처리를 합니다.
+  public void runVideoConvert(Video video){
+      asyncService.vimeoAsyncRun(() -> this.videoConvert(video));
+  }
+  
+  // 비동기 적용 메서드
+  public void videoConvert(Video video){
+    // 비디오 변환로직 및 API 호출로직
+  }
 }
 ```
 AsyncService를 하나 만들고 해당 서비스는 Runnable를 파라미터로 받아 실행만 해주는 메서드를 선언하여줍니다.\
