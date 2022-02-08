@@ -3,7 +3,7 @@ sidebar:
 nav: "main"
 layout: single
 title:  "자바의 멀티스레딩과 @Async"
-categories: [Java,Spring]
+categories: [Spring]
 tags: [Java,Spring,Async]
 teaser: /assets/images/teaser/spring.png
 ---

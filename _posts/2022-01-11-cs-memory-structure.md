@@ -3,7 +3,7 @@ sidebar:
 nav: "main"
 layout: single
 title:  "Memory Structure (메모리 구조) 요약"
-categories: [Programming,CS]
+categories: [Programming]
 tags: [Programming,CS,Memory Structure]
 teaser: /assets/images/teaser/programming.jpeg
 ---
